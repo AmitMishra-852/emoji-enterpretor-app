@@ -1,0 +1,9 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+#inputArea {
+  height: 30px;
+  width: 350px;
+  border: 1px solid blue;
+}
