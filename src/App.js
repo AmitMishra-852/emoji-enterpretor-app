@@ -34,9 +34,11 @@ export default function App() {
   // view area
   return (
     <div className="App">
-      <h1 style={{ backgroundColor: "blue" }}>Hello sir</h1>
-      <p class="director">Enter your Emoji👇</p>
-      <input onChange={myfunction} />
+      <h1>
+        MY Emoji <span id="interpreter">interpreter</span>
+      </h1>
+      <p className="director">Enter your Emoji👇</p>
+      <input id="inputArea" onChange={myfunction} />
       <p>
         <b>{arrayStore}</b>
       </p>

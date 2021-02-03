@@ -1,9 +1,21 @@
 .App {
   font-family: sans-serif;
-  text-align: center;
+  /* text-align: center; */
+  background-color: rgb(141, 141, 221);
+  height: 400px;
+  width: 400px;
+  padding: 20px;
+  margin: auto;
+
+  /* border: 1px solid blue; */
 }
 #inputArea {
-  height: 30px;
+  height: 40px;
   width: 350px;
-  border: 1px solid blue;
+  border: none;
+  background-color: rgb(104, 104, 179);
+  box-shadow: 2px 2px 5px;
+}
+#interpreter {
+  color: blue;
 }
